@@ -5,14 +5,14 @@ public class PersonalData {
 	private String name;
 	private String phone;
 	private String cpf;
-	private Integer registration;
+
 	
-	public PersonalData(String name, String phone, String cpf, Integer registration) {
+	public PersonalData(String name, String phone, String cpf) {
 		super();
 		this.name = name;
 		this.phone = phone;
 		this.cpf = cpf;
-		this.registration = registration;
+	
 	}
 
 	public String getName() {
@@ -27,8 +27,6 @@ public class PersonalData {
 		return cpf;
 	}
 
-	public Integer getRegistration() {
-		return registration;
-	}
+	
 
 }
